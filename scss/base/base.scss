@@ -1,0 +1,19 @@
+@import './reset.scss';
+@import './vars.scss';
+@import './mixins-temp.scss';
+@import '../blocks/benefits.scss';
+body{
+    font-family: $font-family;
+}
+.container{
+    width: 1049px;
+    margin: auto;
+}
+.title{
+    @include font-style(700,40px,142%,0.01em,$Darkblue);
+    text-align: center;
+}
+.problems{
+    padding-top: 10px;
+    @include font-style(500,14px,20px,0.2px,$Grey)
+}

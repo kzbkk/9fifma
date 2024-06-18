@@ -1,0 +1,19 @@
+%block{
+    width: 230px;
+    height: 209px;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+@mixin font-style($w,$fz,$ln,$ls,$color){
+    font-weight: $w;
+    font-size: $fz;
+    line-height: $ln;
+    letter-spacing: $ls;
+    color: $color;
+}
