@@ -1,0 +1,43 @@
+.benefits {
+  width: 1440px;
+  height: 526px;
+  background-color: #A784C2;
+  margin: auto;
+}
+@media (max-width: 414px) {
+  .benefits {
+    width: 330px;
+  }
+}
+.benefits__blocks {
+  background-color: red;
+}
+
+.benefits__content {
+  width: 511px;
+  margin: auto;
+  text-align: center;
+  padding-top: 80px;
+}
+@media (max-width: 414px) {
+  .benefits__content {
+    width: 330px;
+  }
+}
+
+@media (max-width: 414px) {
+  h2 {
+    width: 254px;
+    margin: auto;
+  }
+}
+
+p {
+  padding-top: 10px;
+}
+@media (max-width: 414px) {
+  p {
+    width: 225px;
+    margin: auto;
+  }
+}/*# sourceMappingURL=benefits.css.map */
